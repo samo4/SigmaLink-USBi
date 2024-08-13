@@ -19,7 +19,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -65,7 +65,7 @@
       39,
       40
     ],
-    "visible_layers": "ffffc00_ffffffff",
+    "visible_layers": "ffffc20_ffffffff",
     "zone_display_mode": 0
   },
   "git": {

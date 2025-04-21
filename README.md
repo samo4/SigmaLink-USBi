@@ -2,6 +2,20 @@
 
 The SigmaLink USBi is an all-in-one real-time programming interface.
 
+## Testing
+
+- [x] draws less than 500mA
+- [ ] why female connector?
+- [ ] _too little bulk capacitance on VBUS_ (100u at least)
+- [ ] missing pullup on SDA
+- [ ] wrong footprint 74LVC2G66
+- [ ] wrong footprint B5819W SL
+- [ ] Y1 has DNP?
+- [ ] _missing pull up on I2C SDA line_
+- [x] works with SigmaStudio aftter adding capacitance and pullup on SDA
+
+## Original info
+
 MAIN COORDINATOR: [Max Chan](https://github.com/xcvista)
 
 ![SigmaLink USBi Pod Image](Documentation/SigmaLink-Pod.jpg)
@@ -17,4 +31,3 @@ Please refer to the documentation for more information:
 ## License
 
 This work and all other materials under https://github.com/freeDSP are licensed under a [Creative Commons Attribution Share-Alike 4.0 license](LICENSE.md). This allows for both personal and commercial derivative works, as long as they credit freeDSP and release their designs under the same license.
-
